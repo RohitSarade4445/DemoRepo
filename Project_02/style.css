@@ -1,0 +1,42 @@
+body {
+    margin: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #423e3e;
+    color: white;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: inline;
+    text-align: center;
+}
+
+#weight-guide{
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: inline;
+    text-align: center;
+}
